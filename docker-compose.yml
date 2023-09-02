@@ -1,0 +1,16 @@
+version: '0.1'
+
+services:
+  app:
+    build:
+        dockerfile: app/Dockerfile
+    ports:
+      - 8501:8501
+    depends_on:
+      - core
+
+  core:
+    build:
+        dockerfile: core/Dockerfile
+    ports:
+      - 8001:8001
