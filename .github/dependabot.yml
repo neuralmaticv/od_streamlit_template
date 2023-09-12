@@ -3,9 +3,9 @@ updates:
   - package-ecosystem: "pip"
     directory: "app"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       
   - package-ecosystem: "pip"
     directory: "core"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
