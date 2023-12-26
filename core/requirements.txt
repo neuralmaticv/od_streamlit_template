@@ -1,5 +1,5 @@
 fastapi==0.104.1
-numpy==1.25.2
+numpy==1.26.2
 opencv_python==4.8.1.78
 pydantic==2.3.0
 uvicorn==0.24.0.post1
