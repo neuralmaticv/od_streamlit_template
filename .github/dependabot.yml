@@ -4,8 +4,12 @@ updates:
     directory: "app"
     schedule:
       interval: "monthly"
+    # Disable version updates for hex dependencies
+    open-pull-requests-limit: 0
       
   - package-ecosystem: "pip"
     directory: "core"
     schedule:
       interval: "monthly"
+    # Disable version updates for hex dependencies
+    open-pull-requests-limit: 0
